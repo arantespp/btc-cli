@@ -1,0 +1,41 @@
+{
+  "name": "btc-cli",
+  "version": "1.0.0",
+  "description": "A JavaScript CLI to handle Bitcoin wallets",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "bitcoin",
+    "cli"
+  ],
+  "type": "module",
+  "author": "Pedro Arantes",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "bip32": "5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.7",
+    "commander": "^12.1.0",
+    "console-table-printer": "^2.12.1",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "bin": {
+    "btc": "./bin/btc.cjs"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
