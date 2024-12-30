@@ -5,7 +5,9 @@ import { createWallet, pathChoices, lengthChoices } from './createWallet';
 program.version(pkg.version, '-v, --version');
 
 program
-  .command('create-wallet')
+  .command('wallet')
+  .description("Handle Bitcoin's wallet")
+  .command('create')
   .description('Create a new wallet')
   .addOption(
     new Option('-l, --length <length>', 'Length of the mnemonic').choices(

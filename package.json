@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A JavaScript CLI to handle Bitcoin wallets",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup",
+    "cli": "tsx src/cli.ts"
   },
   "keywords": [
     "bitcoin",
