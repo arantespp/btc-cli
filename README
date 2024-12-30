@@ -16,7 +16,7 @@
 ## Installation
 
 ```bash
-npm install -g btc-cli
+npm install -g @arantespp/btc-cli
 ```
 
 ## Quick Start

@@ -1,5 +1,5 @@
 {
-  "name": "btc-cli",
+  "name": "@arantespp/btc-cli",
   "version": "1.0.0",
   "description": "A JavaScript CLI to handle Bitcoin wallets",
   "scripts": {
@@ -10,6 +10,10 @@
     "bitcoin",
     "cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arantespp/btc-cli.git"
+  },
   "type": "module",
   "author": "Pedro Arantes",
   "license": "MIT",
@@ -29,14 +33,13 @@
     "typescript": "^5.7.2"
   },
   "bin": {
-    "btc": "./bin/btc.cjs"
+    "btc": "bin/btc.cjs"
   },
   "files": [
     "bin",
     "dist"
   ],
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   }
 }
